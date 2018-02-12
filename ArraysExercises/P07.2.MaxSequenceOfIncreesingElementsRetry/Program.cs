@@ -13,31 +13,33 @@ namespace P06.MaxSequenceOfEqualElements
             var input = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
             var start = input[0];
-            //int bestStart = input[0];
+            int bestStart = input[0];
             var count = 1;
             int bestCount = 1;
-            for (int i = 1; i < input.Length; i++)
+            for (int i = 0; i < input.Length; i++)
             {
-                if (start == input[i]-1)
+                if (i == input.Length - 1)
+                {
+                    break;
+                }
+                if (input[i] == input[i + 1] - 1)
                 {
                     count++;
-                    
-                  if (count > bestCount)
-                  {
-                      bestCount = count;
-            //          bestStart = start;
-                  }
-                  start++;
+                    if (count > bestCount)
+                    {
+                        bestCount = count;
+                        bestStart = start;
+                    }
                 }
                 else
                 {
-                    start = input[i];
+                    start = input[i + 1];
                     count = 1;
                 }
             }
-            for (int i = 0; i < bestCount; i++)
+            for (int i = bestStart; i < bestStart + bestCount; i++)
             {
-                Console.Write($"{start-bestCount+1+i} ");
+                Console.Write($"{i} ");
             }
         }
     }

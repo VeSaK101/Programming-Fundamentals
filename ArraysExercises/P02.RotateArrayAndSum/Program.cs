@@ -11,10 +11,10 @@ namespace P02.RotateArrayAndSum
         static void Main(string[] args)
         {
             var nums = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-            int k = int.Parse(Console.ReadLine());
+            int numberOfRotations = int.Parse(Console.ReadLine());
             var sum = new int[nums.Length];
 
-            for (int y = 0; y < k; y++)
+            for (int y = 0; y < numberOfRotations; y++)
             {
                 var temp = new int[nums.Length];
                 temp[0] = nums[nums.Length - 1];

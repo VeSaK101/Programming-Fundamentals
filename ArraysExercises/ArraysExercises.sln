@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2020
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.LargestCommonEnd", "P01.LargestCommonEnd\P01.LargestCommonEnd.csproj", "{C45ABE78-C4AF-4C7E-8C26-D32BF9D81E04}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09.PairsByDifference", "P09.PairsByDifference\P09.PairsByDifference.csproj", "{7E4EACF6-5CCB-4EAE-B0C6-D25F230AAEED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10.EqualSums", "P10.EqualSums\P10.EqualSums.csproj", "{BF0F93A5-4D6F-4DAE-A340-8F4344C600B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07.2.MaxSequenceOfIncreesingElementsRetry", "P07.2.MaxSequenceOfIncreesingElementsRetry\P07.2.MaxSequenceOfIncreesingElementsRetry.csproj", "{F45B5DF6-1080-45D6-9A01-5668D7E1592B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{BF0F93A5-4D6F-4DAE-A340-8F4344C600B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF0F93A5-4D6F-4DAE-A340-8F4344C600B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF0F93A5-4D6F-4DAE-A340-8F4344C600B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F45B5DF6-1080-45D6-9A01-5668D7E1592B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45B5DF6-1080-45D6-9A01-5668D7E1592B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45B5DF6-1080-45D6-9A01-5668D7E1592B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45B5DF6-1080-45D6-9A01-5668D7E1592B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

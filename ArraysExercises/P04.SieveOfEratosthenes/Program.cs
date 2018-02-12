@@ -11,39 +11,25 @@ namespace P04.SieveOfEratosthenes
         static void Main(string[] args)
         {
             var n = int.Parse(Console.ReadLine());
-            bool[] primes = new bool[n+1];
-            for (int i = 0; i < n+1; i++)
+            bool[] primes = new bool[n + 1];
+            for (int index = 0; index < n + 1; index++)
             {
-                primes[i] = true;
+                primes[index] = true;
             }
             primes[0] = primes[1] = false;
 
-            for (int p = 0; p <= n; p++)
+            for (int index = 2; index <= Math.Sqrt(n); index++)
             {
-                if (primes[p] == true)
+                if (primes[index] == true)
                 {
-                    Console.WriteLine(p + " ");
-                    for (int i = p; i < n+1; i++)
+                    for (int i = index * index; i <= n + 1; i += index)
                     {
-                        if (i % 2 == 0)
-                        {
-                            primes[i] = false;
-                        }
-                        else if (i % 3 == 0 && i != 3)
-                        {
-                            primes[i] = false;
-                        }
-                        else if (i % 5 == 0 && i != 5)
-                        {
-                            primes[i] = false;
-                        }
-                        else if (i % 7 == 0 && i !=7)
-                        {
-                            primes[i] = false;
-                        }
+                        primes[i] = false;
                     }
                 }
             }
+
+
         }
     }
 }
