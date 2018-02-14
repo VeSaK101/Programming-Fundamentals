@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01", "P01\P01.csproj", "{489F632B-1689-4E52-8077-805188C5332E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01", "P01\P01.csproj", "{489F632B-1689-4E52-8077-805188C5332E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.AMinerTask", "P03.AMinerTask\P03.AMinerTask.csproj", "{95F7A1DC-9C27-4F32-A662-BA3CC3016100}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03.AMinerTask", "P03.AMinerTask\P03.AMinerTask.csproj", "{95F7A1DC-9C27-4F32-A662-BA3CC3016100}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.FixEmails", "P04.FixEmails\P04.FixEmails.csproj", "{C06E9DC5-89CC-4449-8D25-DBE2C3F4264B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.FixEmails", "P04.FixEmails\P04.FixEmails.csproj", "{C06E9DC5-89CC-4449-8D25-DBE2C3F4264B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.HandsOfCard", "P05.HandsOfCard\P05.HandsOfCard.csproj", "{726C6751-CC37-492C-A3A5-9F45CF41162D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05.HandsOfCard", "P05.HandsOfCard\P05.HandsOfCard.csproj", "{726C6751-CC37-492C-A3A5-9F45CF41162D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06.UserLogs", "P06.UserLogs\P06.UserLogs.csproj", "{D9DC1B6F-0AC3-4F27-8A32-682F48644646}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07.PopulationCounter", "P07.PopulationCounter\P07.PopulationCounter.csproj", "{9868C3A9-28BB-4C20-9428-A39DE7C72B2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08.LogsAgregator", "P08.LogsAgregator\P08.LogsAgregator.csproj", "{13C280BB-C547-459B-A11B-853C26920AE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09.LegendaryFarming", "P09.LegendaryFarming\P09.LegendaryFarming.csproj", "{9B285D40-DEE0-45CE-8B75-E0420EB90591}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{726C6751-CC37-492C-A3A5-9F45CF41162D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{726C6751-CC37-492C-A3A5-9F45CF41162D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{726C6751-CC37-492C-A3A5-9F45CF41162D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9DC1B6F-0AC3-4F27-8A32-682F48644646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DC1B6F-0AC3-4F27-8A32-682F48644646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DC1B6F-0AC3-4F27-8A32-682F48644646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DC1B6F-0AC3-4F27-8A32-682F48644646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9868C3A9-28BB-4C20-9428-A39DE7C72B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9868C3A9-28BB-4C20-9428-A39DE7C72B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9868C3A9-28BB-4C20-9428-A39DE7C72B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9868C3A9-28BB-4C20-9428-A39DE7C72B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C280BB-C547-459B-A11B-853C26920AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C280BB-C547-459B-A11B-853C26920AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C280BB-C547-459B-A11B-853C26920AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C280BB-C547-459B-A11B-853C26920AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B285D40-DEE0-45CE-8B75-E0420EB90591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B285D40-DEE0-45CE-8B75-E0420EB90591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B285D40-DEE0-45CE-8B75-E0420EB90591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B285D40-DEE0-45CE-8B75-E0420EB90591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
