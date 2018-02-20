@@ -15,7 +15,6 @@ namespace P09.LegendaryFarming
             stash["fragments"] = 0;
             stash["motes"] = 0;
 
-            //var maxVal = stash.FirstOrDefault(x => x.Value == stash.Values.Max()).Value;
 
             while (stash["shards"] < 250 && stash["fragments"] < 250 && stash["motes"] < 250)
             {
@@ -42,7 +41,7 @@ namespace P09.LegendaryFarming
             var max = stash.FirstOrDefault(x => x.Value == stash.Values.Max()).Key;
             Console.WriteLine(getLegendary(max) + " obtained!");
             stash[max] -= 250;
-            foreach (var item in stash.OrderByDescending(x => x.Value))//.ThenBy(x => x.Key))
+            foreach (var item in stash.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
             {
                 Console.WriteLine($"{item.Key}: {item.Value}");
             }
