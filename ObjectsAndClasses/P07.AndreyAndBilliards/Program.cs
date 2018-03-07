@@ -23,6 +23,7 @@ namespace P07.AndreyAndBilliards
         {
             var n = int.Parse(Console.ReadLine());
             var menu = new SortedDictionary<string, double>();
+
             while (n-- > 0)
             {
                 var product = Console.ReadLine().Split('-').ToList();
